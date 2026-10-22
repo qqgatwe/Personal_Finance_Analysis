@@ -1,0 +1,50 @@
+# Python 虛擬環境
+.venv/
+venv/
+env/
+
+# Python 快取
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 編輯器設定
+.vscode/
+.idea/
+
+# 系統暫存檔
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# 個人財務資料
+data/*.csv
+
+# 保留公開範例資料
+!data/sample_records.csv
+
+# 自動產生的圖表
+output/
+
+# 備份與封存
+archive/
+tests_backup/
+
+# 專案結構清單
+project_structure.txt
+project_structure_clean.txt
+
+# 環境變數及密鑰
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python 建置檔案
+build/
+dist/
+*.egg-info/
